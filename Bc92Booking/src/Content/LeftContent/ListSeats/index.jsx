@@ -28,7 +28,7 @@ export default function ListSeats() {
                                 return (
                                     <button key={i} className={`w-10 h-10 m-1 rounded text-center 
                                     ${hangGhe.hang === "" ? "text-yellow-400 font-bold" :
-                                            ghe.daDat === true ? "bg-orange text-white" :
+                                            ghe.daDat === true ? "bg-orange text-white cursor-not-allowed" :
                                                 isSelected(ghe.soGhe) ? "bg-green-500 text-white" : "bg-gray-400 text-black"} `} onClick={() => handleDetailSeat(ghe)} disabled={ghe.daDat}>
                                         {ghe.soGhe}
                                     </button>
