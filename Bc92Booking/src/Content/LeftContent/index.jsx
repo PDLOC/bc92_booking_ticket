@@ -3,6 +3,10 @@ import ListSeats from "./ListSeats"
 
 export default function LeftContent() {
     return (
-        <div>LeftContent</div>
+        <div>
+            <p className="text-white font-bold text-center text-md">Màn hình</p>
+            <div className="screen"></div>
+            <ListSeats />
+        </div >
     )
 }
